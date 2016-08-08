@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_graphql"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.scriptsweat.henrasetianugraha.prototype.Graphql">
+
+    <Button
+        android:text="get all produk"
+        android:onClick="intentGetAllProdukG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="@+id/activity_graphql"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_graphql"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:text="get detail produk"
+        android:onClick="intentGetDetailProdukG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="@+id/activity_graphql"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_graphql"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:text="get keranjang"
+        android:onClick="intentGetKeranjangG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="@+id/activity_graphql"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_graphql"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
+        android:text="get rating"
+        android:onClick="intentGetRatingG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button6"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="@+id/activity_graphql"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_graphql"
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
+
+    <Button
+        android:text="get wishlist"
+        android:onClick="intentGetWishlistG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button7"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_graphql"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="@+id/activity_graphql"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+    <Button
+        android:text="add keranjang"
+        android:onClick="intentAddKeranjangG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button8"
+        app:layout_constraintTop_toBottomOf="@+id/button7"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_graphql"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="@+id/activity_graphql" />
+
+    <Button
+        android:text="add rating"
+        android:layout_width="wrap_content"
+        android:onClick="intentAddRatingG"
+        android:layout_height="wrap_content"
+        android:id="@+id/button9"
+        app:layout_constraintTop_toBottomOf="@+id/button8"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_graphql"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="@+id/activity_graphql" />
+
+    <Button
+        android:text="add wishlist"
+        android:onClick="intentAddWishlistG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button10"
+        android:layout_marginStart="16dp"
+        app:layout_constraintLeft_toLeftOf="@+id/activity_graphql"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintRight_toRightOf="@+id/activity_graphql"
+        app:layout_constraintTop_toBottomOf="@+id/button9" />
+</android.support.constraint.ConstraintLayout>
